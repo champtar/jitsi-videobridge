@@ -7,7 +7,8 @@
   <parent>
     <groupId>org.jitsi</groupId>
     <artifactId>jitsi-universe</artifactId>
-    <version>1.0-20160405.235512-16</version>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../jitsi-universe/pom.xml</relativePath>
   </parent>
 
   <artifactId>jitsi-videobridge</artifactId>
@@ -69,32 +70,26 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>fmj</artifactId>
-      <version>1.0-20160624.153910-20</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>ice4j</artifactId>
-      <version>1.1-20160706.192041-13</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jicoco</artifactId>
-      <version>1.0-20160307.212517-27</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-android-osgi</artifactId>
-      <version>1.0-20150723.002702-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-configuration</artifactId>
-      <version>2.9-20150723.181638-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-fileaccess</artifactId>
-      <version>2.9-20150723.181644-1</version>
     </dependency>
     <dependency>
       <!--
@@ -105,52 +100,43 @@
       -->
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-lgpl-dependencies</artifactId>
-      <version>1.0-20150723.002855-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-netaddr</artifactId>
-      <version>2.9-20150723.181645-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-packetlogging</artifactId>
-      <version>2.9-20160331.174040-3</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol</artifactId>
-      <version>2.9-20151211.202410-3</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol-jabber</artifactId>
-      <version>2.9-20160505.143533-15</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol-media</artifactId>
-      <version>2.9-20150723.181646-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-resourcemanager</artifactId>
-      <version>2.9-20150723.181652-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-ui-service</artifactId>
-      <version>2.9-20150723.181654-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-util</artifactId>
-      <version>2.9-20160203.194039-2</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>libjitsi</artifactId>
-      <version>1.0-20160707.163121-175</version>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>

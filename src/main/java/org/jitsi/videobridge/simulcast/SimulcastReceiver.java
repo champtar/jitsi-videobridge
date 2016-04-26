@@ -482,6 +482,14 @@ public class SimulcastReceiver
                 }
                 else
                 {
+                    if (logger.isInfoEnabled())
+                    {
+                        logger.info("It looks like at least one pkt was delivered out of order." +
+                            " Last pkt sequence number=" +
+                            acceptedStream.lastPktSequenceNumber +
+                            ", expected sequence number="
+                            + expectedPktSequenceNumber);
+                    }
                     pktSequenceNumberIsInOrder = false;
                 }
             }
